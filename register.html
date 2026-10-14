@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account — Stackly</title>
+<meta name="description" content="Create your Stackly account and start building machine-learning models today.">
+<link rel="icon" type="image/svg+xml" href="svg/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<main class="auth-layout">
+  <div class="auth-visual">
+    <div class="av-bg"><img src="img/service-01.webp" alt="" loading="eager"></div>
+    <div class="av-top">
+      <a href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly" width="2109" height="591"></a>
+    </div>
+    <div class="av-bottom">
+      <h2>Your first model is <span class="accent">minutes away.</span></h2>
+      <p>Create a workspace, upload a dataset, and watch Stackly train, evaluate and deploy — all before your coffee cools.</p>
+      <div class="av-stats">
+        <div><b>14 days</b><span>Free trial</span></div>
+        <div><b>No card</b><span>Required</span></div>
+        <div><b>1 line</b><span>To deploy</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-panel">
+    <a class="auth-back" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back to Home</a>
+    <div class="auth-box auth-box-register">
+      <div class="ab-logo"><img src="svg/logo.svg" alt="Stackly" width="2109" height="591"></div>
+      <h1>Create your account.</h1>
+      <p class="ab-sub">Free for 14 days. Full platform access.</p>
+
+      <form id="registerForm" novalidate>
+        <div class="role-switch" role="group" aria-label="Select role">
+          <input type="hidden" name="role" value="user">
+          <button type="button" class="active" data-role="user">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+            User
+          </button>
+          <button type="button" data-role="admin">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/></svg>
+            Admin
+          </button>
+        </div>
+
+        <div class="field">
+          <label for="rf-name">Full Name</label>
+          <input id="rf-name" type="text" placeholder="Ada Lovelace" autocomplete="name">
+          <span class="f-msg"></span>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="rf-email">Work Email</label>
+            <input id="rf-email" type="email" placeholder="you@company.com" autocomplete="email">
+            <span class="f-msg"></span>
+          </div>
+          <div class="field">
+            <label for="rf-company">Company</label>
+            <input id="rf-company" type="text" placeholder="Optional" autocomplete="organization">
+            <span class="f-msg"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="rf-pass">Password</label>
+            <div class="pass-wrap">
+              <input id="rf-pass" type="password" placeholder="8+ characters" autocomplete="new-password">
+              <button type="button" class="pw-toggle" aria-label="Show password">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+            <span class="f-msg"></span>
+          </div>
+          <div class="field">
+            <label for="rf-pass2">Confirm Password</label>
+            <div class="pass-wrap">
+              <input id="rf-pass2" type="password" placeholder="Repeat it" autocomplete="new-password">
+              <button type="button" class="pw-toggle" aria-label="Show password">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+            <span class="f-msg"></span>
+          </div>
+        </div>
+
+        <div class="auth-row" style="justify-content:flex-start">
+          <label class="check"><input id="rf-terms" type="checkbox"><span class="cb"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></span><span>I agree to the <a class="u-link" href="404.html">Terms</a> and <a class="u-link" href="404.html">Privacy Policy</a></span></label>
+        </div>
+
+        <button class="btn btn-dark btn-block" type="submit"><span>Create Account</span>
+          <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </button>
+      </form>
+
+      <p class="auth-alt">Already have an account? <a class="u-link" href="login.html">Log in</a></p>
+    </div>
+  </div>
+</main>
+
+<script src="js/form.js"></script>
+</body>
+</html>

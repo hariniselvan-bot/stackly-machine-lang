@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing — Stackly</title>
+<meta name="description" content="Simple, transparent pricing for the Stackly machine-learning platform — Starter, Growth and Enterprise plans.">
+<link rel="icon" type="image/svg+xml" href="svg/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true">
+  <img class="pl-mark" src="svg/logo-mark.svg" alt="" style="filter:invert(1) brightness(1.9)">
+  <div class="pl-word" aria-hidden="true"><span>S</span><span>T</span><span>A</span><span>C</span><span>K</span><span>L</span><span class="gold">Y</span></div>
+  <div class="pl-bar"><i></i></div>
+  <div class="pl-num">000 / 100</div>
+</div>
+
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+<header class="site-header">
+  <div class="container-wide header-in">
+    <a class="brand" href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly — Machine Learning Platform" width="2109" height="591"></a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="service.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-dark btn-sm" href="login.html">Start Building
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" aria-label="Mobile">
+  <a class="mn-link" href="index.html"><span class="mn-i">01</span>Home</a>
+  <a class="mn-link" href="about.html"><span class="mn-i">02</span>Our Story</a>
+  <a class="mn-link" href="service.html"><span class="mn-i">04</span>Services</a>
+  <a class="mn-link" href="blog.html"><span class="mn-i">05</span>Blog</a>
+  <a class="mn-link" href="pricing.html"><span class="mn-i">06</span>Pricing</a>
+  <a class="mn-link" href="faq.html"><span class="mn-i">07</span>FAQ</a>
+  <a class="mn-link" href="contact.html"><span class="mn-i">08</span>Contact</a>
+  <div class="mn-foot"><a class="btn btn-gold" href="login.html">Start Building<span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+</nav>
+
+<main>
+
+<section class="page-hero" style="padding-bottom:50px">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container" style="text-align:center">
+    <div class="crumbs" style="justify-content:center"><a href="index.html">Home</a><i></i><span>Pricing</span></div>
+    <h1 data-split style="margin-inline:auto;max-width:20ch">Pricing that scales with your models, not your anxiety.</h1>
+    <p class="ph-sub" style="margin-inline:auto">Every plan includes the full platform. You only scale on models, predictions and compute.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <div class="price-toggle-wrap">
+      <div class="price-toggle" role="group" aria-label="Billing cycle">
+        <span class="pt-pill" aria-hidden="true"></span>
+        <button class="active" data-cycle="monthly">Monthly</button>
+        <button data-cycle="yearly">Yearly<span class="save">−20%</span></button>
+      </div>
+    </div>
+
+    <div class="price-grid">
+      <article class="price-card" data-aos="fade-up">
+        <h3>Starter</h3>
+        <p class="pc-desc">For individuals training their first serious models.</p>
+        <div class="pc-price"><span class="pc-amount" data-monthly="49" data-yearly="39">$49</span><small>/mo</small></div>
+        <span class="pc-cycle">per month · billed monthly</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>3 active models</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>100k predictions / mo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Shared GPU pool</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>1 GB feature store</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Community support</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="register.html">Start Free Trial</a>
+      </article>
+
+      <article class="price-card featured" data-aos="fade-up" data-aos-delay="100">
+        <span class="pc-badge">Most Popular</span>
+        <h3>Growth</h3>
+        <p class="pc-desc">For teams putting models into real products.</p>
+        <div class="pc-price"><span class="pc-amount" data-monthly="249" data-yearly="199">$249</span><small>/mo</small></div>
+        <span class="pc-cycle">per month · billed monthly</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>50 active models</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>25M predictions / mo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Dedicated GPU lanes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Drift monitoring &amp; alerts</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Experiment compare suite</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Priority support</li>
+        </ul>
+        <a class="btn btn-gold btn-block" href="register.html">Start Free Trial</a>
+      </article>
+
+      <article class="price-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Enterprise</h3>
+        <p class="pc-desc">For organizations where ML is mission-critical.</p>
+        <div class="pc-price">Custom</div>
+        <span class="pc-cycle" data-static>annual agreement</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Unlimited models &amp; seats</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Private cloud / on-prem</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>SSO, audit logs, SLA 99.99%</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Custom data residency</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Dedicated success engineer</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="contact.html">Talk to Sales</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head center">
+      <span class="label">Compare</span>
+      <h2 data-split>Every plan, side by side.</h2>
+    </div>
+    <div class="compare-wrap" data-aos="fade-up">
+      <table class="compare-table">
+        <thead>
+          <tr><th>Capability</th><th>Starter</th><th class="hl">Growth</th><th>Enterprise</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Active models</td><td>3</td><td class="hl">50</td><td>Unlimited</td></tr>
+          <tr><td>Predictions / month</td><td>100k</td><td class="hl">25M</td><td>Unlimited</td></tr>
+          <tr><td>GPU compute</td><td>Shared pool</td><td class="hl">Dedicated lanes</td><td>Private cluster</td></tr>
+          <tr><td>Drift monitoring</td><td><span class="no">—</span></td><td class="hl"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></td><td><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></td></tr>
+          <tr><td>SSO &amp; audit logs</td><td><span class="no">—</span></td><td class="hl"><span class="no">—</span></td><td><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg></td></tr>
+          <tr><td>Deployment SLA</td><td>Best effort</td><td class="hl">99.9%</td><td>99.99%</td></tr>
+          <tr><td>Support</td><td>Community</td><td class="hl">Priority</td><td>Dedicated engineer</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:10px">
+  <div class="container">
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Is there a free trial?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>Yes — every plan starts with a 14-day full-feature trial. No credit card required, and your models and data stay exportable forever.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What happens if I exceed my prediction quota?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>Nothing breaks. We keep serving and notify you; overage is billed at a published per-million rate, or you can upgrade mid-cycle with prorated pricing.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I switch between monthly and yearly billing?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>Anytime. Moving to yearly applies the 20% discount immediately and credits your remaining monthly balance.</p></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:44px"><a class="u-link" href="faq.html">Browse all questions →</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container-wide">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly" width="2109" height="591"></a>
+        <p class="fb-tag">The machine-learning platform for teams who ship intelligence.</p>
+        <p class="fb-desc">Train, deploy and monitor production models on one obsessively crafted platform — from first dataset to global inference.</p>
+        <div class="footer-social">
+          <a href="404.html" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.9 7.9L23.3 22h-6.4l-5-6.6L6.1 22H3l7.4-8.5L2.5 2H9l4.5 6zM17.8 20.1h1.7L7.9 3.8H6z"/></svg></a>
+          <a href="404.html" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 112.5 6a2.5 2.5 0 012.48-2.5zM3 8.9h4V21H3zM9.5 8.9h3.8v1.7h.1a4.2 4.2 0 013.8-2c4 0 4.8 2.6 4.8 6.1V21h-4v-5.5c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21h-4z"/></svg></a>
+          <a href="404.html" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7a4.5 4.5 0 011.2-3.1 4.2 4.2 0 01.1-3.1s1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2a4.2 4.2 0 01.1 3.1 4.5 4.5 0 011.2 3.1c0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg></a>
+        </div>
+      </div>
+   <div class="footer-col"><h4>Platform</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">Our story</a></li><li><a href="service.html">Service</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Resources</h4><ul><li><a href="404.html">Blog</a></li><li><a href="404.html">FAQ</a></li><li><a href="404.html">Documentation</a></li><li><a href="404.html">API Reference</a></li><li><a href="404.html">Changelog</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="404.html">About</a></li><li><a href="404.html">Contact</a></li><li><a href="404.html">Careers</a></li><li><a href="404.html">Press Kit</a></li><li><a href="404.html">Legal</a></li></ul></div>      <div class="footer-news">
+        <h4 style="color:#F4F2EA;font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;margin-bottom:14px;font-family:var(--font-display)">Stay in the loop</h4>
+        <p>One thoughtful email a month on applied machine learning. No noise.</p>
+        <form class="news-form" novalidate>
+          <input type="email" placeholder="you@company.com" aria-label="Email address" required>
+          <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Stackly. All rights reserved.</p>
+      <p class="fb-center">Machine Learning Platform</p>
+      <div class="fb-links"><a href="404.html">Privacy</a><a href="404.html">Terms</a><a href="404.html">Cookies</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

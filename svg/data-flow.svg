@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" fill="none">
+  <path class="flow-line" d="M0 110 C 200 30, 400 190, 600 110 S 1000 30, 1200 110" stroke="#B7A84A" stroke-width="1.6"/>
+  <path class="flow-line slow" d="M0 140 C 220 210, 420 60, 640 140 S 1020 210, 1200 140" stroke="#D8C86A" stroke-opacity=".55" stroke-width="1.2"/>
+  <path class="flow-line fast" d="M0 80 C 220 10, 420 150, 640 80 S 1020 10, 1200 80" stroke="#B7A84A" stroke-opacity=".35" stroke-width="1"/>
+</svg>

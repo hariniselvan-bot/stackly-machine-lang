@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none">
+  <defs>
+    <radialGradient id="nng" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D8C86A" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#B7A84A" stop-opacity=".15"/>
+    </radialGradient>
+  </defs>
+  <g stroke="url(#nng)" stroke-width="1.1" opacity=".85">
+    <path d="M320 96 L480 192 L480 384 L320 480 L160 384 L160 192 Z"/>
+    <path d="M320 96 L320 480 M160 192 L480 384 M480 192 L160 384"/>
+    <path d="M320 96 L560 288 L480 384 M320 96 L80 288 L160 384"/>
+    <path d="M80 288 L320 480 L560 288 M80 288 L320 288 L560 288"/>
+    <path d="M320 96 L320 288 M160 192 L320 288 L480 192"/>
+    <path d="M160 384 L320 288 L480 384 M320 288 L320 480"/>
+  </g>
+  <g fill="#D8C86A">
+    <circle cx="320" cy="96" r="7"/>
+    <circle cx="480" cy="192" r="6"/>
+    <circle cx="160" cy="192" r="6"/>
+    <circle cx="480" cy="384" r="6"/>
+    <circle cx="160" cy="384" r="6"/>
+    <circle cx="320" cy="480" r="7"/>
+    <circle cx="80" cy="288" r="5"/>
+    <circle cx="560" cy="288" r="5"/>
+    <circle cx="320" cy="288" r="9" fill="#F4F2EA"/>
+  </g>
+  <circle cx="320" cy="288" r="46" stroke="#D8C86A" stroke-opacity=".5" fill="none"/>
+  <circle cx="320" cy="288" r="78" stroke="#D8C86A" stroke-opacity=".22" fill="none" stroke-dasharray="4 10"/>
+</svg>

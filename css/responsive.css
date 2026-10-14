@@ -1,0 +1,157 @@
+/* ============================================================
+   STACKLY — Responsive
+   Breakpoints: 1280 / 1024 / 768 / 480 / 375 / 320
+   ============================================================ */
+
+@media (max-width:1280px){
+  .hero .container-wide{gap:40px}
+  .hv-accuracy{left:-8px}
+  .hv-prediction{right:-8px}
+  .hv-chip-2{right:-6px}
+  .caps{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,36px)}
+  .footer-news{grid-column:span 4;width:100%;max-width:520px;justify-self:center}
+}
+
+@media (min-width:1081px) and (max-width:1220px){
+  .site-header .header-in{gap:12px}
+  .brand img{width:180px}
+  .main-nav{gap:0}
+  .main-nav a{padding-inline:8px;font-size:.93rem}
+  .header-cta .btn{min-width:178px}
+}
+
+@media (max-width:1080px){
+  :root{--header-h:74px}
+  .main-nav{display:none}
+  .header-cta .btn{display:none}
+  .burger{display:grid}
+  .brand img{width:150px}
+
+  .hero{padding-top:calc(var(--header-h) + 30px)}
+  .hero .container-wide{grid-template-columns:1fr;gap:60px}
+  .hero-visual{max-width:640px;margin:0 auto;width:100%;align-self:center}
+  .hero-insight{margin-inline:12px;gap:16px}
+  .hv-accuracy{left:2%}
+  .hv-prediction{right:2%}
+
+  .bento{grid-template-columns:repeat(2,1fr)}
+  .b-span-2,.b-span-3,.b-span-4{grid-column:span 2}
+  .caps{grid-template-columns:repeat(2,1fr)}
+  .uc-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:34px 20px}
+  .stat:nth-child(3)::before{display:none}
+  .arch-sec .arch-wrap,.story-grid,.split-2{grid-template-columns:1fr;gap:34px}
+  .arch-sec .arch-visual{max-width:680px;width:100%;margin-inline:auto}
+  .price-grid{grid-template-columns:1fr;max-width:520px;margin-inline:auto}
+  .price-card.featured{transform:none}
+  .wf-steps{grid-template-columns:1fr;gap:0}
+  .wf-line{left:36px;right:auto;top:4%;bottom:4%;width:2px;height:auto}
+  .wf-line i{width:100%;height:0}
+  .wf-step{display:grid;grid-template-columns:74px 1fr;gap:20px;padding:16px 0}
+  .wf-step .wf-dot{margin-bottom:0}
+  .dash-charts{grid-template-columns:1fr}
+  .dash-body{grid-template-columns:repeat(2,1fr)}
+  .dash-grid,.dash-grid-3{grid-template-columns:1fr}
+  .dash-stats{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .svc-row{grid-template-columns:70px 1fr auto;gap:20px}
+  .svc-row .sv-ic{display:none}
+  .svc-row .sv-feats{display:none}
+  .svc-img-strip{grid-template-columns:1fr;max-width:480px;margin-inline:auto}
+  .blog-feature{grid-template-columns:1fr}
+  .blog-feature .bf-img{aspect-ratio:16/9}
+  .blog-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr;gap:44px}
+  .auth-layout{grid-template-columns:1fr}
+  .auth-visual{display:none}
+  .auth-panel{min-height:100vh}
+  .mv-grid{grid-template-columns:1fr}
+  .stack-strip{grid-template-columns:1fr}
+
+  /* dashboard → sidebar drawer */
+  .dash-layout{grid-template-columns:1fr}
+  .dash-sidebar{
+    position:fixed;inset:0 auto 0 0;width:280px;z-index:1200;transform:translateX(-102%);
+    transition:transform .5s var(--ease);height:100dvh;
+  }
+  .dash-sidebar.open{transform:none;box-shadow:40px 0 90px rgba(0,0,0,.35)}
+  .tb-burger{display:grid}
+  .dash-overlay{position:fixed;inset:0;background:rgba(17,20,13,.5);z-index:1150;opacity:0;visibility:hidden;transition:.4s}
+  .dash-overlay.open{opacity:1;visibility:visible}
+  .dash-main{padding:20px 18px 50px}
+}
+
+@media (max-width:768px){
+  .section{padding:80px 0}
+  .workflow-sec,.testi-sec{margin:0 10px;padding:80px 0}
+  h1{font-size:clamp(2.3rem,9vw,3.2rem)}
+  .trusted .t-in{flex-direction:column;gap:18px;align-items:flex-start}
+  .trusted .t-label{max-width:none}
+  .uc-grid{grid-template-columns:1fr}
+  .uc-card{aspect-ratio:4/3.4}
+  .form-card{padding:32px 24px}
+  .form-row{grid-template-columns:1fr}
+  .cta-box{padding:70px 7%}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
+  .footer-brand{grid-column:span 2}
+  .footer-news{grid-column:span 2}
+  .footer-bottom{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .footer-bottom .fb-center{grid-column:1/-1;grid-row:2}
+  .footer-bottom .fb-links{gap:18px}
+  .blog-grid{grid-template-columns:1fr}
+  .blog-search{margin-left:0;width:100%}
+  .nf-btns .btn{width:100%;justify-content:center}
+  .compare-wrap{border-radius:18px}
+  .page-hero{padding:calc(var(--header-h) + 50px) 0 60px}
+  .hero-feature-card{max-width:none}
+  .hero-insight{grid-template-columns:1fr auto auto;gap:12px;padding:14px 15px}
+  .hero-insight-metric{padding-left:12px}
+  .hero-cta{gap:18px}
+  .tb-profile .tb-txt{display:none}
+  .tb-profile{padding:5px}
+  .dash-topbar{gap:12px}
+  .dash-stats{grid-template-columns:1fr 1fr}
+  .dstat{padding:20px}
+}
+
+@media (max-width:520px){
+  .caps{grid-template-columns:1fr}
+  .bento{grid-template-columns:1fr}
+  .b-span-2,.b-span-3,.b-span-4{grid-column:span 1}
+  .stats-grid{grid-template-columns:1fr 1fr;gap:26px 12px}
+  .stat+.stat::before{display:none}
+  .dash-body{grid-template-columns:1fr}
+  .dash-stats{grid-template-columns:1fr}
+  .hv-status{left:2%}
+  .hv-card{padding:12px 14px;border-radius:14px}
+  .hv-card .hvc-value{font-size:1.4rem}
+  .hv-accuracy{min-width:150px;top:-18px}
+  .team-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-brand,.footer-news{grid-column:span 1}
+  .hero-insight{grid-template-columns:1fr auto}
+  .hero-insight-status{grid-column:1/-1;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .hero-insight-metric:nth-of-type(2){padding-left:0;border-left:0}
+  .footer-bottom{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .footer-bottom .fb-center{grid-column:1;grid-row:2}
+  .footer-bottom .fb-links{grid-column:1;grid-row:3;justify-self:center}
+  .auth-panel{padding:100px 6% 60px}
+  .auth-box{padding:28px 22px;border-radius:22px}
+  .auth-panel::before{inset:12px;border-radius:24px}
+  .svc-row{grid-template-columns:1fr auto;padding:26px 22px}
+  .svc-row .sv-n{display:none}
+  .price-toggle button{padding:11px 18px}
+  .nf-page::before{inset:8px;border-radius:20px}
+  .nf-head{padding:24px 7%}
+  .nf-center{padding:28px 7% 48px}
+  .nf-btns{width:100%;gap:10px}
+  .nf-btns .btn{width:100%}
+}
+
+@media (max-width:360px){
+  .btn{padding:14px 20px;font-size:.85rem}
+  .brand img{width:135px}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .btn-play{justify-content:center}
+}

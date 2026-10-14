@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page Not Found — Stackly</title>
+<meta name="description" content="This model couldn't be found. Return to Stackly.">
+<link rel="icon" type="image/svg+xml" href="svg/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<main class="nf-page">
+  <div class="nf-bg" aria-hidden="true"><img src="svg/neural-network.svg" alt="" class="drift" style="width:100%;height:100%;object-fit:cover"></div>
+
+  <header class="nf-head">
+    <a href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly" width="2109" height="591"></a>
+    <a class="nf-home-link" href="index.html">stackly.ai</a>
+  </header>
+
+  <div class="nf-center">
+    <span class="nf-eyebrow"><i></i> SIGNAL NOT FOUND</span>
+    <div class="nf-code" aria-hidden="true">4<span class="accent">0</span>4</div>
+    <h1 class="nf-msg">This model couldn't be found.</h1>
+    <p class="nf-sub">The page you requested was never trained into existence — or it drifted out of distribution. Either way, the loss is minimal: just head back.</p>
+    <div class="nf-btns">
+      <a class="btn btn-gold" href="index.html">Go Home
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8M6 10v10h12V10"/></svg></span>
+      </a>
+      <button class="btn btn-light" onclick="history.back()">Go Back
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+      </button>
+    </div>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="js/cursor.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof gsap === 'undefined') return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  gsap.from('.nf-code', { scale: .7, opacity: 0, duration: 1, ease: 'power4.out' });
+  gsap.from('.nf-msg, .nf-sub', { y: 24, opacity: 0, duration: .7, stagger: .12, delay: .3, ease: 'power3.out' });
+  gsap.from('.nf-btns > *', { y: 20, opacity: 0, duration: .6, stagger: .1, delay: .6, ease: 'power3.out' });
+  gsap.from('.nf-head', { y: -20, opacity: 0, duration: .6, ease: 'power3.out' });
+});
+</script>
+</body>
+</html>

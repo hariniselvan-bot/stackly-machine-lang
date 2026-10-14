@@ -1,0 +1,70 @@
+/* ============================================================
+   STACKLY — Animations (keyframes, reveal helpers, draw SVG)
+   ============================================================ */
+
+/* AOS bootstrap fallback (AOS lib provides its own; these are extras) */
+[data-reveal]{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+[data-reveal].revealed{opacity:1;transform:none}
+
+/* split-text units */
+.sw{display:inline-block;overflow:hidden;vertical-align:bottom}
+.sw>i{display:inline-block;font-style:inherit;transform:translateY(110%);will-change:transform}
+
+/* SVG line drawing */
+.draw path,.draw circle,.draw polyline,.draw line{stroke-dasharray:var(--dash,600);stroke-dashoffset:var(--dash,600)}
+.draw.drawn path,.draw.drawn circle,.draw.drawn polyline,.draw.drawn line{animation:drawIn 1.8s var(--ease) forwards}
+@keyframes drawIn{to{stroke-dashoffset:0}}
+
+/* floating hero cards */
+.float-a{animation:floatY 5.4s ease-in-out infinite}
+.float-b{animation:floatY 6.4s ease-in-out .8s infinite}
+.float-c{animation:floatY 7.2s ease-in-out 1.6s infinite}
+
+/* pulsing nodes */
+.node-pulse{animation:pulse 2.4s ease-in-out infinite}
+.node-pulse.d2{animation-delay:.6s}
+.node-pulse.d3{animation-delay:1.2s}
+
+/* data-flow dashes */
+.flow-line{stroke-dasharray:8 14;animation:dashFlow 6s linear infinite}
+.flow-line.fast{animation-duration:3.4s}
+.flow-line.slow{animation-duration:9s}
+
+/* orbiting ring */
+.orbit-spin{animation:spinSlow 26s linear infinite;transform-origin:center}
+.orbit-spin.rev{animation-direction:reverse;animation-duration:34s}
+
+/* chart bars grow on scroll */
+.grow-bar{transform-origin:bottom;transform:scaleY(0);transition:transform 1s var(--ease)}
+.in-view .grow-bar{transform:scaleY(1)}
+
+/* ticker value flash */
+.tick-flash{animation:tickFlash .5s var(--ease)}
+@keyframes tickFlash{0%{color:var(--gold-2)}100%{color:inherit}}
+
+/* preloader extra */
+.preloader.done{transition:opacity .6s var(--ease),visibility 0s .6s;opacity:0;visibility:hidden}
+
+/* image reveal clip */
+.clip-reveal{clip-path:inset(0 0 100% 0 round var(--radius-lg));transition:clip-path 1.2s var(--ease)}
+.clip-reveal.revealed{clip-path:inset(0 0 0 0 round var(--radius-lg))}
+
+/* counter glow */
+@keyframes countPop{0%{transform:scale(.92)}60%{transform:scale(1.04)}100%{transform:scale(1)}}
+.count-pop{animation:countPop .5s var(--ease)}
+
+/* 404 glitch drift */
+@keyframes drift{0%,100%{transform:translate(0,0)}33%{transform:translate(14px,-10px)}66%{transform:translate(-12px,8px)}}
+.drift{animation:drift 9s ease-in-out infinite}
+
+/* skeleton shimmer for loading panels */
+@keyframes shimmer{from{background-position:-400px 0}to{background-position:400px 0}}
+.shimmer{background:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.08) 50%,rgba(255,255,255,0) 100%);background-size:400px 100%;animation:shimmer 2.2s linear infinite}
+
+/* magnetic helper (JS sets transform) */
+.magnetic{will-change:transform}
+
+/* underline link */
+.u-link{position:relative;font-weight:600;color:var(--ink)}
+.u-link::after{content:"";position:absolute;left:0;bottom:-3px;height:2px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+.u-link:hover::after{transform:scaleX(1);transform-origin:left}

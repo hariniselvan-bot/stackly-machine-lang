@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stackly — Machine Learning Platform</title>
+<meta name="description" content="Stackly is the enterprise machine-learning platform to train, deploy and scale intelligent models — data intelligence, predictive AI and automation in one stack.">
+<link rel="icon" type="image/svg+xml" href="svg/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="preload" as="image" href="img/hero.webp">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" aria-hidden="true">
+  <img class="pl-mark" src="svg/logo-mark.svg" alt="" style="filter:invert(1) brightness(1.9)">
+  <div class="pl-word" aria-hidden="true"><span>S</span><span>T</span><span>A</span><span>C</span><span>K</span><span>L</span><span class="gold">Y</span></div>
+  <div class="pl-bar"><i></i></div>
+  <div class="pl-num">000 / 100</div>
+</div>
+
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container-wide header-in">
+    <a class="brand" href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly — Machine Learning Platform" width="2109" height="591"></a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="service.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-dark btn-sm" href="login.html">Start Building
+        <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" aria-label="Mobile">
+  <a class="mn-link" href="index.html"><span class="mn-i">01</span>Home</a>
+  <a class="mn-link" href="about.html"><span class="mn-i">02</span>Our Story</a>
+  <a class="mn-link" href="service.html"><span class="mn-i">04</span>Services</a>
+  <a class="mn-link" href="blog.html"><span class="mn-i">05</span>Blog</a>
+  <a class="mn-link" href="pricing.html"><span class="mn-i">06</span>Pricing</a>
+  <a class="mn-link" href="faq.html"><span class="mn-i">07</span>FAQ</a>
+  <a class="mn-link" href="contact.html"><span class="mn-i">08</span>Contact</a>
+  <div class="mn-foot"><a class="btn btn-gold" href="login.html">Start Building<span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+</nav>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container-wide">
+    <div class="hero-copy">
+      <span class="hero-tag"><i></i>AI PLATFORM</span>
+
+      <a class="hero-feature-card" href="404.html" aria-label="Learn more about Data Intelligence">
+        <div class="hf-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#D8C86A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+        </div>
+        <div>
+          <h3>Data Intelligence</h3>
+          <p>Turn raw data into meaningful insights with intelligent machine learning.</p>
+        </div>
+        <span class="hf-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+
+      <ul class="hero-steps">
+        <li>
+          <span class="step-n">01</span>
+          <div><h4>Data Preparation</h4><p>Clean, transform and prepare your data</p></div>
+        </li>
+        <li>
+          <span class="step-n">02</span>
+          <div><h4>Model Training</h4><p>Train high-performance models</p></div>
+        </li>
+        <li>
+          <span class="step-n">03</span>
+          <div><h4>Deploy &amp; Monitor</h4><p>Deploy models and monitor performance</p></div>
+        </li>
+      </ul>
+
+      <h1>
+        <span class="h-line"><span>Machine Learning,</span></span>
+        <span class="h-line"><span>Built to <span class="accent serif-i">Think&nbsp;Bigger.</span></span></span>
+      </h1>
+      <p class="hero-sub">Train, deploy, and scale intelligent models with one powerful platform.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-dark" href="404.html">Start Building
+          <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="btn-play" href="404.html" aria-label="Watch demo">
+          <span class="play-ic"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+          Watch Demo
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero visual -->
+    <div class="hero-visual">
+      <div class="hero-insight" aria-label="Live platform performance">
+        <div class="hero-insight-status"><i></i><span>Platform health</span><strong>All systems operational</strong></div>
+        <div class="hero-insight-metric"><strong>124</strong><span>Models live</span></div>
+        <div class="hero-insight-metric"><strong>42<small>ms</small></strong><span>Avg. latency</span></div>
+      </div>
+      <div class="hv-stage">
+        <div class="hv-glow" data-depth="10" aria-hidden="true"></div>
+        <div class="hv-orbit" data-depth="18" aria-hidden="true">
+          <img src="svg/hero-network.svg" alt="" class="orbit-spin" loading="eager">
+        </div>
+        <div class="hv-frame" data-depth="6">
+          <img src="img/hero.webp" alt="Stackly machine-learning engine — neural network, training metrics and prediction panels" width="1600" height="900" loading="eager">
+        </div>
+
+        <svg class="hv-streams" data-depth="14" viewBox="0 0 800 450" preserveAspectRatio="none" aria-hidden="true">
+          <path id="hs1" class="hs-path hs-1" d="M-20 380 C 160 340, 260 200, 430 240 S 700 120, 830 90"/>
+          <path id="hs2" class="hs-path hs-2" d="M-20 120 C 180 160, 320 300, 520 260 S 740 320, 830 280"/>
+          <path id="hs3" class="hs-path hs-3" d="M-20 250 C 200 230, 380 120, 560 170 S 760 220, 830 190"/>
+          <circle class="hs-dot" r="3"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#hs1"/></animateMotion></circle>
+          <circle class="hs-dot" r="2.4"><animateMotion dur="8.5s" begin="-3s" repeatCount="indefinite"><mpath href="#hs2"/></animateMotion></circle>
+          <circle class="hs-dot" r="2"><animateMotion dur="7.2s" begin="-5s" repeatCount="indefinite"><mpath href="#hs3"/></animateMotion></circle>
+        </svg>
+        <i class="hv-node" style="--x:16%;--y:26%;--d:0s" aria-hidden="true"></i>
+        <i class="hv-node" style="--x:78%;--y:18%;--d:.7s" aria-hidden="true"></i>
+        <i class="hv-node" style="--x:64%;--y:70%;--d:1.3s" aria-hidden="true"></i>
+        <i class="hv-node" style="--x:30%;--y:78%;--d:1.9s" aria-hidden="true"></i>
+        <i class="hv-node" style="--x:88%;--y:52%;--d:2.5s" aria-hidden="true"></i>
+
+        <div class="hv-card hv-accuracy float-a">
+          <span class="hvc-label">Model Accuracy</span>
+          <div class="hvc-value"><span data-live-count="98.7">98.7%</span></div>
+          <svg viewBox="0 0 150 36" width="150" height="36" fill="none" aria-hidden="true">
+            <path class="flow-line" d="M2 30 C 20 28, 30 14, 48 18 S 76 30, 96 12 S 130 4, 148 6" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="hv-card hv-prediction float-b">
+          <span class="hvc-label">Prediction</span>
+          <div class="hvc-value">+32<em>%</em></div>
+        </div>
+
+        <div class="hv-card hv-status float-c">
+          <span class="hvc-label">Pipeline Status</span>
+          <ul>
+            <li><i class="dot-ok"></i>Training<span>Completed</span></li>
+            <li><i class="dot-run"></i>Validation<span>In progress</span></li>
+            <li><i class="dot-ok"></i>Deployment<span>Ready</span></li>
+          </ul>
+        </div>
+
+        <div class="hv-chip hv-chip-1 float-b"><i></i>Model Training</div>
+        <div class="hv-chip hv-chip-2 float-a"><i></i>Predictive AI</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUSTED ================= -->
+<section class="trusted" aria-label="Trusted by">
+  <div class="container-wide t-in">
+    <span class="t-label">Trusted by innovative teams</span>
+    <div class="marquee">
+      <div class="marquee-track" aria-hidden="false">
+        <span>NEXORA</span><span>QUANTIX</span><span>VERTEX</span><span>ORBITAL</span><span>DATANODE</span><span>NEXUS&nbsp;AI</span><span>HELIOS</span><span>STRATA</span>
+        <span aria-hidden="true">NEXORA</span><span aria-hidden="true">QUANTIX</span><span aria-hidden="true">VERTEX</span><span aria-hidden="true">ORBITAL</span><span aria-hidden="true">DATANODE</span><span aria-hidden="true">NEXUS&nbsp;AI</span><span aria-hidden="true">HELIOS</span><span aria-hidden="true">STRATA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DATA INTELLIGENCE / BENTO ================= -->
+<section class="section" id="intelligence">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">Data Intelligence</span>
+      <h2 data-split>Every layer of the ML lifecycle, engineered.</h2>
+      <p>From ingestion to inference, Stackly unifies the tools your team needs into one obsessively crafted platform.</p>
+    </div>
+
+    <div class="bento">
+      <article class="bento-card b-span-3" data-aos="fade-up">
+        <span class="bc-num">01</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <h3>Data Preparation</h3>
+        <p>Automated cleaning, labeling and feature pipelines that turn messy source data into training-ready datasets in minutes.</p>
+        <div class="bc-viz mini-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </article>
+
+      <article class="bento-card b-span-3 dark" data-aos="fade-up" data-aos-delay="80">
+        <span class="bc-num">02</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></div>
+        <h3>Model Training</h3>
+        <p>Distributed GPU training with automatic hyperparameter search and checkpointing across <b style="color:#D8C86A">40+</b> architectures.</p>
+      </article>
+
+      <article class="bento-card b-span-2" data-aos="fade-up" data-aos-delay="120">
+        <span class="bc-num">03</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-6 4 4 6-8 3 4"/><path d="M3 21h18"/></svg></div>
+        <h3>Predictive AI</h3>
+        <p>Forecast demand, churn and risk with continuously learning models.</p>
+      </article>
+
+      <article class="bento-card b-span-2" data-aos="fade-up" data-aos-delay="160">
+        <span class="bc-num">04</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+        <h3>Real-Time Analytics</h3>
+        <p>Stream inference metrics with sub-second latency.</p>
+      </article>
+
+      <article class="bento-card b-span-2" data-aos="fade-up" data-aos-delay="200">
+        <span class="bc-num">05</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L19 9l-4.1 1.4L12 15l-1.9-4.6L6 9l4.1-1.4z"/><path d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9z"/></svg></div>
+        <h3>Automation</h3>
+        <p>Event-driven retraining and deployment without human babysitting.</p>
+      </article>
+
+      <article class="bento-card b-span-4" data-aos="fade-up" data-aos-delay="240">
+        <span class="bc-num">06</span>
+        <div class="bc-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 019 9h-4a5 5 0 00-5-5z"/><path d="M12 3a9 9 0 00-9 9h4a5 5 0 015-5z" opacity=".45"/><path d="M12 21a9 9 0 009-9h-4a5 5 0 01-5 5z" opacity=".7"/><path d="M12 21a9 9 0 01-9-9h4a5 5 0 005 5z" opacity=".3"/></svg></div>
+        <h3>Model Monitoring</h3>
+        <p>Drift detection, explainability reports and alerting keep every production model honest — before your metrics notice.</p>
+        <div class="bc-viz mini-bars" aria-hidden="true" style="height:44px;max-width:280px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORKFLOW ================= -->
+<section class="workflow-sec" id="workflow">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">Our Workflow</span>
+      <h2 data-split>From raw data to live prediction in five moves.</h2>
+      <p>A single opinionated pipeline — scroll to see each stage light up.</p>
+    </div>
+
+    <div class="wf-track">
+      <div class="wf-line" aria-hidden="true"><i></i></div>
+      <div class="wf-steps">
+        <div class="wf-step active">
+          <div class="wf-dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+          <span class="wf-n">STEP 01</span>
+          <h3>Data</h3>
+          <p>Collect and prepare petabyte-scale datasets with schema-aware pipelines.</p>
+        </div>
+        <div class="wf-step">
+          <div class="wf-dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+          <span class="wf-n">STEP 02</span>
+          <h3>Train</h3>
+          <p>Build accurate models on managed GPU clusters with one config file.</p>
+        </div>
+        <div class="wf-step">
+          <div class="wf-dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6L4 18a2.4 2.4 0 002.2 3.4h11.6A2.4 2.4 0 0020 18l-5-9V3"/><path d="M8 3h8"/><path d="M7.5 14h9"/></svg></div>
+          <span class="wf-n">STEP 03</span>
+          <h3>Experiment</h3>
+          <p>Fine-tune and compare hundreds of runs side by side.</p>
+        </div>
+        <div class="wf-step">
+          <div class="wf-dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg></div>
+          <span class="wf-n">STEP 04</span>
+          <h3>Deploy</h3>
+          <p>Launch to production endpoints with canary releases and rollbacks.</p>
+        </div>
+        <div class="wf-step">
+          <div class="wf-dot"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 7 4-14 3 7h4"/></svg></div>
+          <span class="wf-n">STEP 05</span>
+          <h3>Monitor</h3>
+          <p>Track performance, drift and cost in real time — forever.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AI CAPABILITIES ================= -->
+<section class="section" id="capabilities">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">AI Capabilities</span>
+      <h2 data-split>Eight disciplines. One platform.</h2>
+      <p>Production-grade capabilities, each tuned by our research team and exposed through one consistent API.</p>
+    </div>
+
+    <div class="caps">
+      <a class="cap-card" href="404.html" aria-label="Learn more about Predictive Analytics" data-aos="fade-up">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"><path class="flow-line fast" d="M6 44 C 18 40, 22 22, 34 26 S 50 14, 54 10" /><circle cx="54" cy="10" r="3" fill="#B7A84A" stroke="none"/></svg></div>
+        <h3>Predictive Analytics</h3>
+        <p>See around corners with models that learn from every new data point.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Computer Vision" data-aos="fade-up" data-aos-delay="60">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="44" height="34" rx="6"/><circle cx="30" cy="29" r="9"/><circle cx="30" cy="29" r="3" fill="#B7A84A" stroke="none"/><path d="M20 12l3-5h14l3 5"/></svg></div>
+        <h3>Computer Vision</h3>
+        <p>Detect, segment and classify images and video streams at the edge.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Natural Language" data-aos="fade-up" data-aos-delay="120">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"><path class="flow-line" d="M8 20 C 20 12, 26 30, 38 22 S 50 16, 54 20"/><path class="flow-line slow" d="M8 34 C 20 26, 26 44, 38 36 S 50 30, 54 34"/><path class="flow-line fast" d="M8 48 C 20 40, 26 56, 38 50 S 50 44, 54 48" opacity=".5"/></svg></div>
+        <h3>Natural Language</h3>
+        <p>Summarize, extract and converse with domain-tuned language models.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Recommendation Engines" data-aos="fade-up" data-aos-delay="180">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="30" r="7"/><circle cx="44" cy="16" r="7"/><circle cx="44" cy="44" r="7"/><path d="M22 26l15-7M22 34l15 7"/></svg></div>
+        <h3>Recommendation Engines</h3>
+        <p>Personalize every touchpoint with real-time ranking models.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Anomaly Detection" data-aos="fade-up">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"><path d="M6 34h10l4-14 6 24 5-16 3 6h20"/><circle cx="50" cy="18" r="5" stroke-dasharray="3 3"/></svg></div>
+        <h3>Anomaly Detection</h3>
+        <p>Catch fraud, failures and drift the instant patterns break.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Forecasting" data-aos="fade-up" data-aos-delay="60">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"><path d="M8 48 V20 M8 48 H54" opacity=".45"/><path class="flow-line" d="M8 40 C 20 36, 28 24, 40 28 S 50 20, 54 16"/><path d="M40 28 C 46 30, 50 34, 54 40" stroke-dasharray="3 4"/></svg></div>
+        <h3>Forecasting</h3>
+        <p>Plan inventory, energy and revenue with confidence intervals.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Automation" data-aos="fade-up" data-aos-delay="120">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M30 8l4 9.5L44 19l-8 7 3 10-9-6-9 6 3-10-8-7 10-1.5z"/></svg></div>
+        <h3>Automation</h3>
+        <p>Trigger retraining, rollouts and alerts from live signals.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="cap-card" href="404.html" aria-label="Learn more about Deep Learning" data-aos="fade-up" data-aos-delay="180">
+        <div class="cap-ic"><svg viewBox="0 0 60 60" fill="none" stroke="#B7A84A" stroke-width="2" stroke-linecap="round"><circle cx="14" cy="16" r="4"/><circle cx="14" cy="44" r="4"/><circle cx="30" cy="30" r="4"/><circle cx="46" cy="16" r="4"/><circle cx="46" cy="44" r="4"/><path d="M17 18l10 9M17 42l10-9M33 28l10-9M33 32l10 9" opacity=".7"/></svg></div>
+        <h3>Deep Learning</h3>
+        <p>Custom architectures, from transformers to graph networks.</p>
+        <span class="cap-go"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLATFORM DASHBOARD PREVIEW ================= -->
+<section class="section" id="platform" style="padding-top:40px">
+  <div class="container">
+    <div class="section-head center">
+      <span class="label">Live Platform</span>
+      <h2 data-split>Your models, observable end to end.</h2>
+      <p>This is a live rendering of the Stackly dashboard — every chart below is drawn in real time by the platform.</p>
+    </div>
+
+    <div class="dash-preview" data-aos="zoom-in">
+      <div class="dash-shell">
+        <div class="dash-top" aria-hidden="true">
+          <i></i><i></i><i></i>
+          <span class="dash-url">app.stackly.ai/overview</span>
+        </div>
+        <div class="dash-body">
+          <div class="dash-stat"><span class="ds-l">Model Accuracy</span><div class="ds-v"><span data-count="98.7">0</span><em>%</em></div><span class="ds-t">▲ 1.2% this week</span></div>
+          <div class="dash-stat"><span class="ds-l">Training Progress</span><div class="ds-v"><span data-count="87">0</span><em>%</em></div><span class="ds-t">Epoch 174 / 200</span></div>
+          <div class="dash-stat"><span class="ds-l">Active Models</span><div class="ds-v"><span data-count="124">0</span></div><span class="ds-t">▲ 9 deployed today</span></div>
+          <div class="dash-stat"><span class="ds-l">Predictions</span><div class="ds-v"><span data-count="2.4">0</span><em>M</em></div><span class="ds-t">last 24 hours</span></div>
+        </div>
+        <div class="dash-charts">
+          <div class="dash-panel">
+            <div class="dp-head dp-head-tabs">
+              <h4>Model Performance</h4>
+              <div class="seg-switch seg-dark" data-target="#homeMainChart" role="tablist" aria-label="Metric">
+                <button class="active" data-cfg='{"type":"line","dark":true,"labels":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"series":[{"data":[91.2,92.8,93.5,94.1,95.8,97.2,98.7],"color":"#D8C86A","fill":"rgba(216,200,106,.22)"},{"data":[88.4,89.1,90.6,91.2,92.4,93.8,95.1],"color":"rgba(244,242,234,.35)"}]}'>Accuracy</button>
+                <button data-cfg='{"type":"line","dark":true,"labels":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"series":[{"data":[89.5,90.8,91.9,93.2,94.0,95.3,96.4],"color":"#D8C86A","fill":"rgba(216,200,106,.22)"},{"data":[86.9,87.4,88.2,89.0,90.1,91.3,92.2],"color":"rgba(244,242,234,.35)"}]}'>Precision</button>
+                <button data-cfg='{"type":"line","dark":true,"labels":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"series":[{"data":[87.2,88.6,90.1,90.9,92.2,93.0,94.1],"color":"#D8C86A","fill":"rgba(216,200,106,.22)"},{"data":[84.8,85.5,86.3,87.1,88.0,88.9,89.7],"color":"rgba(244,242,234,.35)"}]}'>Recall</button>
+                <button data-cfg='{"type":"line","dark":true,"labels":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"series":[{"data":[88.3,89.6,91.0,92.0,93.1,94.2,95.2],"color":"#D8C86A","fill":"rgba(216,200,106,.22)"},{"data":[85.8,86.4,87.2,88.0,89.0,90.0,90.9],"color":"rgba(244,242,234,.35)"}]}'>F1 Score</button>
+              </div>
+            </div>
+            <canvas class="chart" id="homeMainChart" height="220" data-chart='{"type":"line","dark":true,"labels":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"series":[{"data":[91.2,92.8,93.5,94.1,95.8,97.2,98.7],"color":"#D8C86A","fill":"rgba(216,200,106,.22)"},{"data":[88.4,89.1,90.6,91.2,92.4,93.8,95.1],"color":"rgba(244,242,234,.35)"}]}'></canvas>
+            <div class="dash-legend"><span><i style="background:#D8C86A"></i>churn-model-v14</span><span><i style="background:rgba(244,242,234,.35)"></i>Baseline</span></div>
+          </div>
+          <div class="dash-panel">
+            <div class="dp-head"><h4>Predictions / Hour</h4><span>7 days</span></div>
+            <canvas class="chart small" height="220" data-chart='{"type":"bar","dark":true,"labels":["M","T","W","T","F","S","S"],"data":[42,58,51,74,68,88,96]}'></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= USE CASES ================= -->
+<section class="section" id="use-cases" style="padding-top:40px">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">Use Cases</span>
+      <h2 data-split>Intelligence, applied everywhere.</h2>
+      <p>Six industries, one stack. Hover any card to see how teams put Stackly to work.</p>
+    </div>
+
+    <div class="uc-grid">
+      <a class="uc-card" href="404.html" aria-label="Learn more about Risk and Fraud Intelligence" data-aos="fade-up">
+        <div class="uc-bg" style="background-image:url('img/service-02.webp')" role="img" aria-label="Predictive analytics visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Finance</span>
+          <h3>Risk &amp; Fraud Intelligence</h3>
+          <p>Score transactions in under 40ms and surface laundering rings before they move.</p>
+          <div class="uc-metric">
+            <div><b>−63%</b><small>fraud losses</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a class="uc-card" href="404.html" aria-label="Learn more about Diagnostic Support" data-aos="fade-up" data-aos-delay="80">
+        <div class="uc-bg" style="background-image:url('img/service-01.webp')" role="img" aria-label="Model training visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Healthcare</span>
+          <h3>Diagnostic Support</h3>
+          <p>Assist clinicians with imaging models trained on de-identified, consented data.</p>
+          <div class="uc-metric">
+            <div><b>97.2%</b><small>detection recall</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a class="uc-card" href="404.html" aria-label="Learn more about Demand Forecasting" data-aos="fade-up" data-aos-delay="160">
+        <div class="uc-bg" style="background-image:url('img/blog-03.webp')" role="img" aria-label="Analytics dashboard visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Retail</span>
+          <h3>Demand Forecasting</h3>
+          <p>Stock what sells. Predict SKU-level demand across every region and channel.</p>
+          <div class="uc-metric">
+            <div><b>+18%</b><small>margin lift</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a class="uc-card" href="404.html" aria-label="Learn more about Predictive Maintenance" data-aos="fade-up">
+        <div class="uc-bg" style="background-image:url('img/service-03.webp')" role="img" aria-label="Automation pipelines visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Manufacturing</span>
+          <h3>Predictive Maintenance</h3>
+          <p>Read sensor streams and schedule repairs days before failure — not after.</p>
+          <div class="uc-metric">
+            <div><b>−41%</b><small>downtime</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a class="uc-card" href="404.html" aria-label="Learn more about Route Optimization" data-aos="fade-up" data-aos-delay="80">
+        <div class="uc-bg" style="background-image:url('img/blog-02.webp')" role="img" aria-label="Data streams visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Logistics</span>
+          <h3>Route Optimization</h3>
+          <p>Re-plan fleets in real time as weather, traffic and demand shift.</p>
+          <div class="uc-metric">
+            <div><b>−22%</b><small>fuel spend</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a class="uc-card" href="404.html" aria-label="Learn more about Churn and LTV Modeling" data-aos="fade-up" data-aos-delay="160">
+        <div class="uc-bg" style="background-image:url('img/blog-01.webp')" role="img" aria-label="Neural network visualization"></div>
+        <div class="uc-in">
+          <span class="uc-tag">Marketing</span>
+          <h3>Churn &amp; LTV Modeling</h3>
+          <p>Know which customers are about to leave — and exactly what will keep them.</p>
+          <div class="uc-metric">
+            <div><b>+31%</b><small>retention</small></div>
+            <span class="uc-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATISTICS ================= -->
+<section class="stats-sec">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat" data-aos="fade-up"><div class="stat-v"><span data-count="98.7">0</span><em>%</em></div><div class="stat-l">Median model accuracy</div></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="80"><div class="stat-v"><span data-count="4.2">0</span><em>B</em></div><div class="stat-l">Predictions served monthly</div></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="160"><div class="stat-v"><span data-count="1200">0</span><em>+</em></div><div class="stat-l">Teams building on Stackly</div></div>
+      <div class="stat" data-aos="fade-up" data-aos-delay="240"><div class="stat-v"><span data-count="99.99">0</span><em>%</em></div><div class="stat-l">Platform uptime</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ARCHITECTURE ================= -->
+<section class="section arch-sec" id="architecture">
+  <div class="container">
+    <div class="arch-wrap">
+      <figure class="arch-visual clip-reveal revealed">
+        <img src="img/about.webp" alt="Inside the Stackly research studio — model infrastructure and neural network displays" width="1400" height="933" loading="lazy" data-parallax>
+      </figure>
+      <div class="arch-copy">
+        <span class="label">Architecture</span>
+        <h2 data-split style="margin:18px 0 20px">A stack designed for the next decade of AI.</h2>
+        <p style="margin-bottom:14px">Stackly is not a wrapper around someone else's models. It is a full compute, training and serving architecture we operate ourselves.</p>
+        <div class="arch-list">
+          <div class="arch-item" data-aos="fade-right">
+            <span class="ai-n">A1</span>
+            <div><h3>Unified Feature Store</h3><p>One versioned source of truth for training and serving features — no skew, ever.</p></div>
+          </div>
+          <div class="arch-item" data-aos="fade-right" data-aos-delay="80">
+            <span class="ai-n">A2</span>
+            <div><h3>Elastic GPU Mesh</h3><p>Burst from one experiment to a thousand-node training run without touching infra.</p></div>
+          </div>
+          <div class="arch-item" data-aos="fade-right" data-aos-delay="160">
+            <span class="ai-n">A3</span>
+            <div><h3>Zero-Copy Serving</h3><p>Models deploy straight from the registry to autoscaling endpoints in one command.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testi-sec" id="testimonials">
+  <div class="container">
+    <div class="testi-head">
+      <div class="section-head" style="margin-bottom:0">
+        <span class="label">Testimonials</span>
+        <h2 data-split>Loved by teams who ship.</h2>
+      </div>
+      <div class="testi-nav">
+        <a class="testi-prev" href="404.html" aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></a>
+        <a class="testi-next" href="404.html" aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+
+    <div class="testi-viewport" style="overflow:hidden;margin-top:50px">
+      <div class="testi-track">
+        <article class="testi-card">
+          <div class="t-quote">“</div>
+          <p>We replaced four internal tools with Stackly in a quarter. Training time dropped 6× and our models finally ship with the same discipline as our code.</p>
+          <div class="t-person"><img class="t-ava" src="img/ppl.webp" alt="Mara Kessler" width="52" height="52" loading="lazy"><div><b>Mara Kessler</b><span>VP of ML, Nexora</span></div></div>
+        </article>
+        <article class="testi-card">
+          <div class="t-quote">“</div>
+          <p>The monitoring alone paid for the platform. Drift alerts caught a silent data bug that would have cost us an entire season of forecasts.</p>
+          <div class="t-person"><img class="t-ava" src="img/ppl2.webp" alt="David Okafor" width="52" height="52" loading="lazy"><div><b>David Okafor</b><span>Head of Data, Orbital</span></div></div>
+        </article>
+        <article class="testi-card">
+          <div class="t-quote">“</div>
+          <p>Our researchers think in experiments, not infrastructure. Stackly made the infrastructure disappear — that is exactly what a platform should do.</p>
+          <div class="t-person"><img class="t-ava" src="img/ppl3.webp" alt="Lina Torres" width="52" height="52" loading="lazy"><div><b>Lina Torres</b><span>Chief Scientist, Quantix</span></div></div>
+        </article>
+        <article class="testi-card">
+          <div class="t-quote">“</div>
+          <p>From first dataset to a production endpoint in eleven days. I have never seen an enterprise rollout move this fast — or feel this polished.</p>
+          <div class="t-person"><img class="t-ava" src="img/ppl4.webp" alt="Jonas Berg" width="52" height="52" loading="lazy"><div><b>Jonas Berg</b><span>CTO, Strata</span></div></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING PREVIEW ================= -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-head center">
+      <span class="label">Pricing</span>
+      <h2 data-split>Start free. Scale when the models do.</h2>
+      <p>Transparent plans for every stage — no surprise GPU bills.</p>
+    </div>
+
+    <div class="price-toggle-wrap">
+      <div class="price-toggle" role="group" aria-label="Billing cycle">
+        <span class="pt-pill" aria-hidden="true"></span>
+        <button class="active" data-cycle="monthly">Monthly</button>
+        <button data-cycle="yearly">Yearly<span class="save">−20%</span></button>
+      </div>
+    </div>
+
+    <div class="price-grid">
+      <article class="price-card" data-aos="fade-up">
+        <h3>Starter</h3>
+        <p class="pc-desc">For individuals training their first serious models.</p>
+        <div class="pc-price"><span class="pc-amount" data-monthly="49" data-yearly="39">$49</span><small>/mo</small></div>
+        <span class="pc-cycle">per month · billed monthly</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>3 active models</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>100k predictions / mo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Shared GPU pool</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Community support</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="404.html">Start Free Trial</a>
+      </article>
+
+      <article class="price-card featured" data-aos="fade-up" data-aos-delay="100">
+        <span class="pc-badge">Most Popular</span>
+        <h3>Growth</h3>
+        <p class="pc-desc">For teams putting models into real products.</p>
+        <div class="pc-price"><span class="pc-amount" data-monthly="249" data-yearly="199">$249</span><small>/mo</small></div>
+        <span class="pc-cycle">per month · billed monthly</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>50 active models</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>25M predictions / mo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Dedicated GPU lanes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Drift monitoring &amp; alerts</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Priority support</li>
+        </ul>
+        <a class="btn btn-gold btn-block" href="404.html">Start Free Trial</a>
+      </article>
+
+      <article class="price-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Enterprise</h3>
+        <p class="pc-desc">For organizations where ML is mission-critical.</p>
+        <div class="pc-price">Custom</div>
+        <span class="pc-cycle" data-static>annual agreement</span>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Unlimited models &amp; seats</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Private cloud / on-prem</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>SSO, audit logs, SLA 99.99%</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>Dedicated success engineer</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="404.html">Talk to Sales</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ PREVIEW ================= -->
+<section class="section" id="faq" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head center">
+      <span class="label">FAQ</span>
+      <h2 data-split>Questions, answered.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do I need ML engineers to use Stackly?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>No. AutoML pipelines handle architecture search and tuning for standard tasks, while full code access stays available for research teams that want control.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How does Stackly keep my data private?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>Your data is encrypted in transit and at rest, never used to train shared models, and Enterprise plans run fully inside your own cloud account.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I deploy to my own infrastructure?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>Yes. Every model exports as a portable artifact with a one-line SDK, or deploys to our managed endpoints with autoscaling and canary releases.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What frameworks are supported?<span class="fq-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+        <div class="faq-a"><p>PyTorch, TensorFlow, JAX, scikit-learn, XGBoost and ONNX — bring existing training scripts and run them unchanged on our GPU mesh.</p></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:44px">
+      <a class="u-link" href="faq.html">Browse all questions →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-sec">
+  <div class="container">
+    <div class="cta-box" data-aos="zoom-in">
+      <div class="cta-grid-bg" aria-hidden="true"></div>
+      <span class="label on-dark" style="position:relative">Ready when you are</span>
+      <h2 data-split>Build the model your competitors will fear.</h2>
+      <p>Spin up your first training run in minutes. Free tier included — no credit card, no sales call required.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="404.html">Start Building
+          <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="btn btn-light" href="404.html">Talk to Us
+          <span class="btn-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container-wide">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" aria-label="Stackly home"><img src="svg/logo.svg" alt="Stackly" width="2109" height="591"></a>
+        <p class="fb-tag">The machine-learning platform for teams who ship intelligence.</p>
+        <p class="fb-desc">Train, deploy and monitor production models on one obsessively crafted platform — from first dataset to global inference.</p>
+        <div class="footer-social">
+          <a href="404.html" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-6.9 7.9L23.3 22h-6.4l-5-6.6L6.1 22H3l7.4-8.5L2.5 2H9l4.5 6zM17.8 20.1h1.7L7.9 3.8H6z"/></svg></a>
+          <a href="404.html" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 112.5 6a2.5 2.5 0 012.48-2.5zM3 8.9h4V21H3zM9.5 8.9h3.8v1.7h.1a4.2 4.2 0 013.8-2c4 0 4.8 2.6 4.8 6.1V21h-4v-5.5c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21h-4z"/></svg></a>
+          <a href="404.html" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7a4.5 4.5 0 011.2-3.1 4.2 4.2 0 01.1-3.1s1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2a4.2 4.2 0 01.1 3.1 4.5 4.5 0 011.2 3.1c0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.6.8.5A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+      <div class="footer-col"><h4>Platform</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">Our story</a></li><li><a href="service.html">Service</a></li><li><a href="blog.html">Blog</a></li><li><a href="pricing.html">Pricing</a><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></ul></div>
+
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="404.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="404.html">Documentation</a></li>
+          <li><a href="404.html">API Reference</a></li>
+          <li><a href="404.html">Changelog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="404.html">About</a></li>
+          <li><a href="404.html">Contact</a></li>
+          <li><a href="404.html">Careers</a></li>
+          <li><a href="404.html">Press Kit</a></li>
+          <li><a href="404.html">Legal</a></li>
+        </ul>
+      </div>
+      <div class="footer-news">
+        <h4 style="color:#F4F2EA;font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;margin-bottom:14px;font-family:var(--font-display)">Stay in the loop</h4>
+        <p>One thoughtful email a month on applied machine learning. No noise.</p>
+        <form class="news-form" novalidate>
+          <input type="email" placeholder="you@company.com" aria-label="Email address" required>
+          <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Stackly. All rights reserved.</p>
+      <p class="fb-center">Machine Learning Platform</p>
+      <div class="fb-links">
+        <a href="404.html">Privacy</a>
+        <a href="404.html">Terms</a>
+        <a href="404.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/preloader.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
